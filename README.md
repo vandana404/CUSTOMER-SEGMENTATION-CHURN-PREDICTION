@@ -6,30 +6,37 @@ This project aims to predict customer churn and segment customers into meaningfu
 
 The project combines:
 
-* Churn Prediction using Random Forest Classifier
-* Customer Segmentation using K-Means Clustering
-* Feature Importance Analysis
-* Model Evaluation and Hyperparameter Tuning
+* Data Cleaning and Exploratory Data Analysis
+* Feature Selection and Train Test Split
+* RandomForest 
+* Recall optimization by using Hyperparameter Tunning
+* Cross Validation of the data set
+* calulate the Roc-auc score
+* Customer segmentation using the K-means
+* Data visualization using seaborn and matplotlib
+  
 
 ---
 
-## Business Problem
+## Business Problem-Churn Segmentaion of customers
 
-Customer churn is a major challenge for subscription-based businesses. Losing existing customers increases acquisition costs and reduces revenue.
+Customer churn Segmentation which is a major challenge for subscription-based businesses like companies(IBM,TCS ,Big MNC etc). Losing existing customers increases acquisition costs and reduces revenue also we need good resources and their requirements to retain the customers.
 
 This project helps answer:
 
 * Which customers are likely to churn?
 * What factors influence churn?
 * How can customers be segmented based on behavior and risk?
+* How many customer leave the company in a year or how much sustain more than a year
+* Key factors behind the loosing the customers
 
 ---
 
 ## Dataset
 
-The dataset contains customer demographic information, service usage details, contract information, billing information, and churn status.
+The dataset contains customer  information, service usage details(Internet services,tech support,Total Charges), contract information, billing information,Tenure Month, and churn status(churn value,churn score).
 
-### Key Features
+### Key Features used in this project-
 
 * Tenure Months
 * Monthly Charges
@@ -47,7 +54,12 @@ The dataset contains customer demographic information, service usage details, co
 * Python
 * Pandas
 * NumPy
+* Machine Learning
 * Matplotlib
+* K-means
+* RandomForest
+* PCA analysis
+* Roc-auc Score Analysis
 * Seaborn
 * Scikit-Learn
 
@@ -60,6 +72,8 @@ The dataset contains customer demographic information, service usage details, co
 Performed:
 
 * Distribution Analysis
+* Encoding
+* Data Cleaning
 * Boxplots
 * Correlation Analysis
 * Churn Pattern Analysis
@@ -118,6 +132,7 @@ Important features include:
 * F1 Score
 * ROC-AUC Score
 * Confusion Matrix
+  
 
 ---
 
@@ -165,9 +180,8 @@ After churn prediction, customers were segmented using K-Means Clustering.
 
 * XGBoost Implementation
 * SHAP Explainability
-* Streamlit Dashboard
 * Real-time Churn Prediction API
-* Deployment on AWS/GCP
+
 
 ---
 

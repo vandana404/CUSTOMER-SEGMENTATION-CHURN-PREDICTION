@@ -179,5 +179,5 @@ After churn prediction, customers were segmented using K-Means Clustering.
 
 * XGBoost Implementation
 * SHAP Explainability
-* Real-time Churn Prediction API
+*PCA analysis
 

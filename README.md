@@ -182,16 +182,3 @@ After churn prediction, customers were segmented using K-Means Clustering.
 * SHAP Explainability
 * Real-time Churn Prediction API
 
-
----
-
-## Project Structure
-
-├── data/
-├── notebooks/
-├── customer_churn_prediction.py
-├── requirements.txt
-├── README.md
-└── outputs/
-
----

@@ -83,7 +83,6 @@ Performed:
 
 * Missing value treatment
 * Feature selection
-* One-Hot Encoding
 * Removal of irrelevant columns
 
 ### 3. Churn Prediction

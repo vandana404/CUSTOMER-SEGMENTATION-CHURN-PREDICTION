@@ -62,6 +62,8 @@ The dataset contains customer  information, service usage details(Internet servi
 * Roc-auc Score Analysis
 * Seaborn
 * Scikit-Learn
+* SHAP Explicibility
+  
 
 ---
 
